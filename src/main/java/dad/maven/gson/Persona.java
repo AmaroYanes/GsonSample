@@ -5,10 +5,10 @@ public class Persona {
 	String apellidos;
 	int edad;
 	
-	public Persona(String n, String a, int e) {
-		nombre = n;
-		apellidos = a;
-		edad = e;
+	public Persona(String nombre, String apellido, int edad) {
+		this.nombre = nombre;
+		this.apellidos = apellido;
+		this.edad = edad;
 	}
 	public String toString() {
 		return "nombre: "+nombre+"\napellido: "+apellidos+"\nedad: "+ edad;
